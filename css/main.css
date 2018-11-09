@@ -4,9 +4,9 @@
 
 	
 	width: 100%;
-   	overflow-wrap: break-word;
+   /*	overflow-wrap: break-word;*/
 
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 
 	padding:0;
 	margin:0;
