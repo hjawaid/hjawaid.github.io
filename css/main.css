@@ -1,3 +1,5 @@
+/*-------------------------––––––––––––––––– Universal*/
+
 *{
 
 	font-family: "Akzidenz";
@@ -17,7 +19,7 @@ body{
 width: 100vw;
 }
 :root {
---mainFontSize: 255%;
+--mainFontSize: 36px;
 --projectTitleSize: 300%;
 }
 
@@ -53,9 +55,12 @@ src: url("fonts/FoundersGrotesk-Light.ttf");
 	height: 80px;
 	position: fixed;
 	z-index: 150;
-/*	background-color: white;*/
+	/*background-color: white;*/
  	text-align:center;
- 	margin-top: 1.5%;
+ 	padding-top: 1%;
+ 	margin-top: 2em;
+ 	padding-right: 2em;
+
 
 }
 
@@ -63,9 +68,11 @@ src: url("fonts/FoundersGrotesk-Light.ttf");
 
 	list-style-type: none;
 	width: auto;
-	float: right;
-	padding: 5px;
-	margin-right: 7%;
+	display: inline-block;
+	float:right;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin: 0 auto;
 	
 
 }
@@ -80,7 +87,7 @@ li a{
 	
 	/*font-weight: 200;*/
 	/*font-family: 'Proxima Nova';*/
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: 200;
 	text-decoration: none;
 	color: black;
@@ -119,13 +126,17 @@ a:visited{
 	cursor: url("img/igCursor.png"),default;
 }*/
 
+.projectThumbnail{
+	padding-right: 8em;
+	padding-left: 8em;
+}
 
-
+/*------------------------------ End of Universal*/
 
 .intro {
 	
 	height: 100%;
-	background-color: #FFFFFF;
+	background-color: #101010;
 	padding: 0;
 	overflow-x: hidden;
 	width:100%;
@@ -138,21 +149,21 @@ padding: 15px;
 }
 .introText{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	position: relative;
 	width: 100%;
-	margin-top:15%;
-	margin-bottom: 1em;
-	color: #101010;
+	margin-top:25%;
+	margin-bottom: 20%;
+	color: white;
 	padding: 1em;
-	margin-left: 2.2em;
+	/*margin-left: 2.2em;
 	margin-right:2.2em;
-	padding-right: 2.2em;
+	padding-right: 2.2em;*/
 
 	
 		/*background-color: white;*/
 }
-.l
+
 .affix{
 	top:-200px;	/* relative to original position, 0 = what top was set to in intro text*/
 	z-index: 50;
@@ -161,19 +172,18 @@ padding: 15px;
 .workIntro{
 	height:100%;
 	/*height: 95vh;*/
-	background-color: #CF021B;
+	background-color: #FF0011;
 	overflow-x: hidden;
-	
 	
 }
 
 .workIntroText{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	position: relative;
-	margin-top:10%;
+	margin-top:55%;
 	color: white;
-	margin-bottom: 10%;
+	margin-bottom: 40%;
 	padding:1em;
 	margin-left: 2.3em;
 	margin-right:1em;
@@ -185,14 +195,18 @@ padding: 15px;
 	padding: 0;
 
 }
+
+.summerPlanText{
+		margin-top: 30vh;
+
+}
 .summerPlanText1{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	position: relative;
-	top: 30vh;
 	color: #0B0B0B;
 	width: 90%;
-	margin-bottom: 2em;
+	margin-top: 10vh;
 	margin-left: 2.2em;
 	margin-right:1em;
 	padding-right: 2em;
@@ -201,9 +215,9 @@ padding: 15px;
 }
 .summerPlanText2{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	position: relative;
-	top:30vh;
+	margin-top: 10vh;
 	color: #0B0B0B;
 	width:90%;
 	margin-bottom: 4em;
@@ -216,7 +230,7 @@ padding: 15px;
 
 }
 .summerProjects{
-margin-top: 20em;
+margin-top: 5%;
 margin-bottom: 10%;
 /*margin-left: 1em;*/
 position: relative;
@@ -225,26 +239,19 @@ width: 100%;
 
 }
 
+
 .project1{
 
 margin-top: 0;
 margin-bottom: 10%;
-padding-right: 2em;
-padding-left: 2em;
+
 
 
 
 }
 
 .project2{
-	margin-bottom: 2em;
-	padding-right: 1em;
-	padding-right: 2em;
-	padding-left: 2em;
-
-	
-	
-
+	margin-bottom: 10%;
 
 }
 
@@ -298,7 +305,7 @@ border-radius: 8px;
 	font-size: 3.6em;
 	font-weight: 100;
 	width:90%;
-	line-height: 1.4em;
+	line-height: 1.3em;
 }
 
 
@@ -334,6 +341,7 @@ width: 50%;
 	margin-left: 25%;
 	padding-top: 1em;
 	transform: scale(1.01);
+
 }
 
 
@@ -346,11 +354,11 @@ width: 50%;
 }
 .moreWorkText{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	position: relative;
 	top:30vh;
 	color: #0B0B0B;
-	width:100%;
+	width:85%;
 	height: 100%;
 	margin-bottom: 3em;
 	margin-left: 2.2em;
@@ -368,25 +376,12 @@ width: 50%;
 .googleSound{
 margin-top: 0;
 margin-bottom: 10%;
-padding-right: 2em;
-padding-left: 2em; /* padding left  */
+
 height: 100%;
 display: block;
 
 }
 
-.googleSoundBG{
-height: 500px;
-width: 100%; 
-background-color: black;
-overflow: hidden;
-margin-left: 1em;
-cursor: pointer;
-border-radius: 8px;
-
-
-
-}
 
 .googleProjectDuration{
 	font-family: 'Helvetica';
@@ -405,7 +400,7 @@ border-radius: 8px;
 	font-size: 3.6em;
 	font-weight: 100;
 	width:90%;
-	line-height: 1.4em;
+	line-height: 1.3em;
 }
 
 
@@ -416,8 +411,6 @@ border-radius: 8px;
 	z-index: 99;
 	opacity: 1;
 	display: none;
-	padding-right: 2em;
-	padding-left: 2em; 
 
 }
 
@@ -454,8 +447,7 @@ border-radius: 8px;
 .ktoSound{
 margin-top: 0;
 margin-bottom: 10%;
-padding-right: 2em;
-padding-left: 2em; /* padding left  */
+
 height: 100%;
 display: block;
 
@@ -492,7 +484,7 @@ border-radius: 8px;
 	font-size: 360%;
 	font-weight: 100;
 	width:90%;
-	line-height: 1.4em;
+	line-height: 1.3em;
 	
 }
 
@@ -515,8 +507,7 @@ border-radius: 8px;
 	z-index: 99;
 	opacity: 1;
 	display: none;
-	padding-right: 2em;
-	padding-left: 2em; 
+	
 	
 	
 }
@@ -567,14 +558,15 @@ border-radius: 8px;
 .musicIntroText{
 
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
-	position: relative;
-	margin-top:30%;
+	line-height: 1.3em;
+	
 	color: white;
-	margin-bottom: 10%;
+	
 	width: 90%;
-	padding-left: 2.8em;
-
+	padding: 0.7em;
+	margin: 0 auto;
+	margin-bottom: 10vh;
+	margin-top:30vh;
 }
 
 
@@ -605,8 +597,8 @@ border-radius: 8px;
 
 .dayOffText{
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
-
+	line-height: 1.3em;
+	
 	
 
 }
@@ -628,13 +620,13 @@ height: 100%;
 }
 
 .derridasTheoryText{
-	padding-left: 2.8em;
+	padding-left: 2em;
 	margin-bottom: 10%;
 	color: white;
 	z-index: 99;
 	width: 90%;
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 
 }
 
@@ -643,6 +635,8 @@ display: table;
 width: 80%;
 margin: 0 auto;
 margin-bottom: 20%;
+
+padding-left: 1.7em;
 
 }
 
@@ -683,11 +677,12 @@ margin-bottom: 20%;
 	background-image: url('img/hillsCoverThumbnail.png');
 }
 .restOfMusic p{
-	padding-left: 10%;
+
+	margin: 0 auto;
 	font-size: var(--mainFontSize);
 	color: white;
 	z-index: 99;
-	width: 100%;
+	width: 90%;
 	padding-bottom: 20%;
 }
 
@@ -701,12 +696,12 @@ margin-bottom: 20%;
 	
 	background-color: #ECEAEA;
 	font-size: var(--mainFontSize);
-	line-height: 1.7em;
+	line-height: 1.3em;
 	padding-left:3em;
 	padding-right: 2em;
 	color: black;
-	padding-top: 20vh;
-	padding-bottom: 20vh;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
 }
 .contact{
@@ -716,14 +711,14 @@ margin-bottom: 20%;
 }
 
 .email{
-	margin-top: 5vh;
+	margin-top: 1em;
 	padding-right: 100px;
 
 }
 
 
 .igHandle{
-	margin-top: 5vh;
+	margin-top: 1em;
 	height: 100%;
 
 	
@@ -798,10 +793,10 @@ transition: color .15s ease-in-out;
 @media screen and (max-width: 850px){
 	.nav{
 	
-	position: relative;
-	margin-bottom: 10vh;
-	margin-left: 5%;
-	float: left
+	position: fixed;
+	height: 4em;
+/*	margin-left: 5%;
+	float: left*/
 	}
 
 }
@@ -810,15 +805,24 @@ transition: color .15s ease-in-out;
 	.nav ul li{
 	list-style-type: none;
 	width: auto;
-	float: left;
+	/*float: left;*/
 	padding: 0.35em;
 	margin: 0.8em;
-	display: block;
-
+	display: inline-block;
+	text-decoration: underline;
+	
 	
 
 		}
 	}
+
+@media screen and (max-width: 850px){
+	li a{
+	font-size:14px;
+
+
+	}
+}
 
 
 @media screen and (max-width: 850px){
@@ -839,28 +843,38 @@ transition: color .15s ease-in-out;
 	}
 }
 
+
+@media screen and (max-width: 850px){
+	.projectThumbnail{
+	
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+
+}
+
+
 @media screen and (max-width: 850px){
 	.dayOffIG {
-		height: 320px;
-	background-image: url('img/dayOffThumbnail.png');
+	height: 320px;
 	width: 320px;
-	background-size: 100%;
-	margin: 0 auto;
-	margin-bottom: 20%;
+	margin-bottom: 30vh;
 	}
 }
 
 @media screen and (max-width: 850px){
 	.contactPage{
-		font-size: 2em;
+		font-size: 1.5em;
 		padding-left:2em;
 		padding-top: 5vh;
 
 	}
 }
 
+@media screen and(max-width: 1205px){
+	.moreWorkText{
 
-
-
+	}
+}
 
 
