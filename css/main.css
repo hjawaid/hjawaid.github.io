@@ -634,21 +634,20 @@ height: 100%;
 
 .instafeed{
 display: table;
-width: 80%;
+
 margin: 0 auto;
 margin-bottom: 20%;
 
-padding-left: 1.7em;
+
 
 }
 
 .imageGrid{
 	width: 320px;
 	height:320px;
-
-	margin: 20px;
+	margin: 20px auto;
 	background-size: 100%;
-	display: inline-block;
+	
 }
 
 .thumbnail1{
