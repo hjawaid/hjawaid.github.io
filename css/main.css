@@ -145,7 +145,7 @@ a:visited{
 
 
 .addPadding{
-padding: 15px;
+/*padding: 15px;*/
 }
 .introText{
 	font-size: var(--mainFontSize);
@@ -434,6 +434,7 @@ border-radius: 8px;
 	color: black;
 	position: relative;
 	margin-top: 0%;
+	width: 105%;
 
 }
 
@@ -572,6 +573,7 @@ border-radius: 8px;
 
 .musicPage{
 	background-color: black;
+	padding: 0;
 
 }
 
@@ -620,7 +622,7 @@ height: 100%;
 }
 
 .derridasTheoryText{
-	padding-left: 2em;
+	padding-left: 1.7em;
 	margin-bottom: 10%;
 	color: white;
 	z-index: 99;
@@ -643,12 +645,14 @@ padding-left: 1.7em;
 .imageGrid{
 	width: 320px;
 	height:320px;
+
 	margin: 20px;
 	background-size: 100%;
 	display: inline-block;
 }
 
 .thumbnail1{
+
 	background-image: url('img/bigFlowsThumbnail.png');
 }
 
@@ -828,6 +832,7 @@ transition: color .15s ease-in-out;
 @media screen and (max-width: 850px){
 	.leftText{
 	font-size: 2.5em;
+
 	margin-left: 0em;
 	margin-right:0em;
 	padding-right: 0em;
