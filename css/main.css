@@ -832,7 +832,7 @@ transition: color .15s ease-in-out;
 		}
 	}
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 600px){
 	li a{
 	font-size:0.9em;
 
