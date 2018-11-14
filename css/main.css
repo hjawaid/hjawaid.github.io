@@ -687,6 +687,10 @@ margin-bottom: 28vh;
 .thumbnail9{
 	background-image: url('img/hillsCoverThumbnail.png');
 }
+
+.restOfMusic{
+		margin-bottom: 30vh;
+}
 .restOfMusic p{
 
 	margin: 0 auto;
@@ -694,7 +698,7 @@ margin-bottom: 28vh;
 	color: white;
 	z-index: 99;
 	width: 90%;
-	margin-bottom: 30vh;
+
 }
 
 
