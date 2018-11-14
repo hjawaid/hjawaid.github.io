@@ -234,7 +234,7 @@ a:visited{
 
 }
 .summerProjects{
-margin-top: 5%;
+margin-top: 4%;
 margin-bottom: 10%;
 /*margin-left: 1em;*/
 position: relative;
@@ -369,11 +369,13 @@ width: 50%;
 	margin-right:2em;
 	padding-right: 1.5em;
 	padding-left: 1em;
+	padding-top: 2em;
 
 }
 
 .moreWork{
 	height: 100vh;
+	margin-top:4%;
 	
 }
 
@@ -430,6 +432,7 @@ cursor: pointer;
 border-radius: 8px;
 
 
+
 }
 
 .googlePreviewText{
@@ -451,7 +454,7 @@ border-radius: 8px;
 
 .ktoSound{
 margin-top: 0;
-margin-bottom: 10%;
+
 
 height: 100%;
 display: block;
@@ -543,8 +546,8 @@ border-radius: 8px;
 
 
 .moreProjects{
-	margin-top: 23em;
-	margin-bottom: 10%;
+	margin-top: 21em;
+	margin-bottom: 20%;
 }
 
 
@@ -568,10 +571,11 @@ border-radius: 8px;
 	color: white;
 	
 	width: 90%;
-	padding: 0.7em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
 	margin: 0 auto;
-	margin-bottom: 10vh;
-	margin-top:30vh;
+	margin-bottom: 30vh;
+	margin-top:40vh;
 }
 
 
@@ -597,7 +601,7 @@ border-radius: 8px;
 	width: 500px;
 	background-size: 100%;
 	margin: 0 auto;
-	margin-bottom: 20%;
+	margin-bottom: 30vh;
 	
 }
 
@@ -627,7 +631,7 @@ height: 100%;
 
 .derridasTheoryText{
 	padding-left: 1.7em;
-	margin-bottom: 10%;
+	margin-bottom: 30vh;
 	color: white;
 	z-index: 99;
 	width: 90%;
@@ -640,7 +644,7 @@ height: 100%;
 display: inline-block;
 
 margin: 0 auto;
-margin-bottom: 20%;
+margin-bottom: 30vh;
 
 
 
@@ -690,7 +694,7 @@ margin-bottom: 20%;
 	color: white;
 	z-index: 99;
 	width: 90%;
-	padding-bottom: 20%;
+	margin-bottom: 30vh;
 }
 
 

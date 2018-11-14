@@ -18,7 +18,7 @@ $(function to_Position(){
 $(function to_Position(){
 	$('.moreWorkLink').click(function(){
 		$('html,body').animate({
-		scrollTop:$('#moreWorkPage').offset().top
+		scrollTop:($('#moreWorkPage').offset().top)
 		}, 'slow')
 	})
 });
