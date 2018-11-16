@@ -201,7 +201,9 @@ a:visited{
 }
 
 .summerPlanText{
-		padding-top: 30vh;
+		padding-top: 15vh;
+		margin-top: 15vh;
+	
 
 }
 .summerPlanText1{
@@ -210,11 +212,12 @@ a:visited{
 	position: relative;
 	color: #0B0B0B;
 	width: 90%;
-	margin-top: 10vh;
+	padding-top: 10vh;
 	margin-left: 2.2em;
 	margin-right:1em;
 	padding-right: 2em;
 	padding-left: 1em;
+	
 	
 }
 .summerPlanText2{
@@ -364,22 +367,22 @@ width: 50%;
 	font-size: var(--mainFontSize);
 	line-height: 1.3em;
 	position: relative;
-	top:30vh;
+	top:15vh;
 	color: #0B0B0B;
 	width:85%;
 	height: 100%;
-	margin-bottom: 3em;
+	margin-bottom: 3.2em;
 	margin-left: 2.2em;
 	margin-right:2em;
 	padding-right: 1.5em;
 	padding-left: 1em;
-	padding-top: 2em;
+	padding-top: 25vh;
+	
 
 }
 
 .moreWork{
-	height: 100vh;
-	margin-top:4%;
+	
 	
 }
 
@@ -550,7 +553,7 @@ border-radius: 8px;
 
 
 .moreProjects{
-	margin-top: 21em;
+	margin-top: 25vh;
 	margin-bottom: 20%;
 }
 
