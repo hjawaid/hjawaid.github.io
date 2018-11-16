@@ -327,6 +327,22 @@ $(".thumbnail9").mouseleave(function(){
 	});
 
 
+///// Day Off
+$(".dayOffIG").hover(function(){
+	
+		$(".dayOffIG").addClass("scaleUp");
+		$(".dayOffIG").removeClass("scaleDown");
+	});
+
+
+$(".dayOffIG").mouseleave(function(){
+	
+		$(".dayOffIG").removeClass("scaleUp");
+		$(".dayOffIG").addClass("scaleDown");
+		
+	});
+
+
 });
 
 
