@@ -276,9 +276,13 @@ cursor: pointer;
 border-radius: 8px;
 
 
+
 }
 
+.project1:hover{
 
+	
+}
 
 .project2BG{
 margin-left: 1em;
@@ -655,12 +659,18 @@ margin-bottom: 28vh;
 	height:300px;
 	margin: 3vh auto;
 	background-size: 100%;
+
 	
+}
+
+.imageGrid:hover{
+
 }
 
 .thumbnail1{
 
 	background-image: url('img/bigFlowsThumbnail.png');
+
 }
 
 .thumbnail2{
@@ -841,6 +851,7 @@ transition: color .15s ease-in-out;
 }
 
 
+
 @media screen and (max-width: 850px){
 	.leftText{
 	font-size: 2.5em;
@@ -885,8 +896,10 @@ transition: color .15s ease-in-out;
 		padding-left:1em;
 		padding-top: 5vh;
 
+
 	}
 }
+
 
 @media screen and(max-width: 1205px){
 	.moreWorkText{

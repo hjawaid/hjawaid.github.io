@@ -195,6 +195,138 @@ $(".ktoSoundBG").mouseleave(function(){
 		$(".ktoSoundBG").addClass("scaleDown");
 		
 	});
+
+// ------------------ thumbnail hover ---------------------------- //
+
+///// thumbnail (x)
+$(".thumbnail1").hover(function(){
+	
+		$(".thumbnail1").addClass("scaleUp");
+		$(".thumbnail1").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail1").mouseleave(function(){
+	
+		$(".thumbnail1").removeClass("scaleUp");
+		$(".thumbnail1").addClass("scaleDown");
+		
+	});
+
+///// thumbnail (x)
+$(".thumbnail2").hover(function(){
+	
+		$(".thumbnail2").addClass("scaleUp");
+		$(".thumbnail2").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail2").mouseleave(function(){
+	
+		$(".thumbnail2").removeClass("scaleUp");
+		$(".thumbnail2").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail3").hover(function(){
+	
+		$(".thumbnail3").addClass("scaleUp");
+		$(".thumbnail3").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail3").mouseleave(function(){
+	
+		$(".thumbnail3").removeClass("scaleUp");
+		$(".thumbnail3").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail4").hover(function(){
+	
+		$(".thumbnail4").addClass("scaleUp");
+		$(".thumbnail4").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail4").mouseleave(function(){
+	
+		$(".thumbnail4").removeClass("scaleUp");
+		$(".thumbnail4").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail5").hover(function(){
+	
+		$(".thumbnail5").addClass("scaleUp");
+		$(".thumbnail5").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail5").mouseleave(function(){
+	
+		$(".thumbnail5").removeClass("scaleUp");
+		$(".thumbnail5").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail6").hover(function(){
+	
+		$(".thumbnail6").addClass("scaleUp");
+		$(".thumbnail6").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail6").mouseleave(function(){
+	
+		$(".thumbnail6").removeClass("scaleUp");
+		$(".thumbnail6").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail7").hover(function(){
+	
+		$(".thumbnail7").addClass("scaleUp");
+		$(".thumbnail7").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail7").mouseleave(function(){
+	
+		$(".thumbnail7").removeClass("scaleUp");
+		$(".thumbnail7").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail8").hover(function(){
+	
+		$(".thumbnail8").addClass("scaleUp");
+		$(".thumbnail8").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail8").mouseleave(function(){
+	
+		$(".thumbnail8").removeClass("scaleUp");
+		$(".thumbnail8").addClass("scaleDown");
+		
+	});
+///// thumbnail (x)
+$(".thumbnail9").hover(function(){
+	
+		$(".thumbnail9").addClass("scaleUp");
+		$(".thumbnail9").removeClass("scaleDown");
+	});
+
+
+$(".thumbnail9").mouseleave(function(){
+	
+		$(".thumbnail9").removeClass("scaleUp");
+		$(".thumbnail9").addClass("scaleDown");
+		
+	});
+
+
 });
 
 
