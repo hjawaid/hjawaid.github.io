@@ -77,6 +77,24 @@ src: url("fonts/FoundersGrotesk-Light.ttf");
 
 }
 
+.homeNav {
+	position: fixed;
+	bottom: 2em;
+	width: 70px;
+	height: 50px;
+	display: inline-block;
+	right: 4em;
+	
+
+
+}
+
+.navArrow{
+	width: 100%;
+	height:100%;
+	
+	
+}
 
 
 span{
@@ -117,18 +135,22 @@ a:visited{
 
 .imageLink:hover{
 	background-color: transparent;
-	text-decoration: none;
-	/*cursor: url("img/igCursor.png"),default;*/
+	
+	cursor: url("img/igCursor.png"),default;
 }
 
-/*.mediumLink:hover{
-	background-color: transparent;
-	text-decoration: none;
-	cursor: pointer;
-	background-color: black;
-	cursor: url("img/igCursor.png"),default;
-}*/
+.mediumLink:hover{
 
+	cursor: url("img/mediumCursor.png"),default;
+}
+
+.scLink:hover{
+	cursor: url("img/scCursor.png"),default;
+}
+
+.expandLink:hover{
+	cursor: url("img/expandCursor.png"),default;
+}
 .projectThumbnail{
 	padding-right: 8em;
 	padding-left: 8em;
@@ -256,6 +278,7 @@ margin-bottom: 10%;
 
 
 }
+
 
 .project2{
 	margin-bottom: 10%;
@@ -443,7 +466,7 @@ border-radius: 8px;
 }
 
 .googlePreviewText{
-	font-size: 255%;
+	font-size: var(--mainFontSize);
 	padding: 1em;
 	color: black;
 	position: relative;
@@ -528,7 +551,7 @@ border-radius: 8px;
 }
 
 .ktoPreviewText{
-	font-size: 255%;
+	font-size: var(--mainFontSize);
 	padding: 1em;
 	color: black;
 	position: relative;
