@@ -142,7 +142,7 @@ a:visited{
 
 .mediumLink:hover{
 
-	cursor: url("img/mediumCursor.png"),default;
+	cursor: url("img/mediumCursor.png"),auto;
 }
 
 .scLink:hover{
@@ -587,6 +587,7 @@ border-radius: 8px;
 	width: 24px;
 	background-image: url("img/closeButton.svg");
 	position: relative;
+	cursor: pointer;
 	
 }
 
