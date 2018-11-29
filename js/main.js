@@ -39,6 +39,15 @@ $(function to_Position(){
 	})
 });
 
+$(function to_Position(){
+	$('.homeNav').click(function(){
+		$('html,body').animate({
+		scrollTop: 0
+		}, 'slow')
+	})
+	
+});
+
 
 
 
@@ -143,42 +152,42 @@ $(function to_Position(){
 
 $(function(){
 $(".project1BG").hover(function(){
-	console.log('slide');
+	// console.log('slide');
 		$(".phone").addClass("pulse");
 		$(".project1BG").addClass("scaleUp");
 		$(".project1BG").removeClass("scaleDown");
 	});
 
 $(".project1BG").mouseleave(function(){
-	console.log('slideOff');
+	// console.log('slideOff');
 		$(".phone").removeClass("pulse");
 		$(".project1BG").removeClass("scaleUp");
 		$(".project1BG").addClass("scaleDown");
 	});
 
 $(".project2BG").hover(function(){
-	console.log('slide');
+	// console.log('slide');
 		$(".desktop").addClass("pulse");
 		$(".project2BG").addClass("scaleUp");
 		$(".project2BG").removeClass("scaleDown");
 	});
 
 $(".project2BG").mouseleave(function(){
-	console.log('slideOff');
+	// console.log('slideOff');
 		$(".desktop").removeClass("pulse");
 		$(".project2BG").removeClass("scaleUp");
 		$(".project2BG").addClass("scaleDown");
 	});
 
 $(".googleSoundBG").hover(function(){
-	console.log('slide');
+	// console.log('slide');
 		
 		$(".googleSoundBG").addClass("scaleUp");
 		$(".googleSoundBG").removeClass("scaleDown");
 	});
 
 $(".googleSoundBG").mouseleave(function(){
-	console.log('slideOff');
+	// console.log('slideOff');
 		$(".googleSoundBG").removeClass("scaleUp");
 		$(".googleSoundBG").addClass("scaleDown");
 	});
