@@ -135,7 +135,7 @@ a:visited{
   text-decoration: none;
 }
 
-/*.imageLink:hover{
+.imageLink:hover{
 	background-color: transparent;
 	
 	cursor: url("img/igCursor.png"),default;
@@ -152,7 +152,7 @@ a:visited{
 
 .expandLink:hover{
 	cursor: url("img/expandCursor.png"),default;
-}*/
+}
 .projectThumbnail{
 	padding-right: 8em;
 	padding-left: 8em;
@@ -576,6 +576,7 @@ border-radius: 8px;
 	color: black;
 	position: relative;
 	margin-top: 0%;
+	cursor: text;
 
 }
 
