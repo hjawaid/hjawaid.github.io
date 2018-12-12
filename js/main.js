@@ -365,6 +365,8 @@ $(".ktoSoundBG").click(function(){
     $(".ktoSound").css("display","none").hide(2500);
 	});
 
+
+
 $(".ktoCloseButton").click(function(){
 
     $(".ktoSound").css("display", "block").show();
