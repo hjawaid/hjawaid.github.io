@@ -186,7 +186,7 @@ a:visited{
 	/*margin-left: 2.2em;
 	margin-right:2.2em;
 	padding-right: 2.2em;*/
-
+	padding-right: 0;
 	
 		/*background-color: white;*/
 }
@@ -194,6 +194,10 @@ a:visited{
 .affix{
 	top:-200px;	/* relative to original position, 0 = what top was set to in intro text*/
 	z-index: 50;
+}
+
+.introTextContainer{
+
 }
 
 .workIntro{
