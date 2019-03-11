@@ -1,8 +1,9 @@
 $('document').ready(function(){
 
+$(".introText").animate({
+opacity: 1}, 850, function(){
 
-
-
+});
 
 
 //navigation links
@@ -373,16 +374,16 @@ $(".ktoCloseButton").click(function(){
     $(".ktoPreviewBox").css("display","none").hide();
 	});
 
-$(".googleSoundBG").click(function(){
-    $(".googlePreviewBox").css("display", "block").show(2500);
-    $(".googleSound").css("display","none").hide(2500);
-	});
+// $(".googleSoundBG").click(function(){
+//     $(".googlePreviewBox").css("display", "block").show(2500);
+//     $(".googleSound").css("display","none").hide(2500);
+// 	});
 
-$(".googleCloseButton").click(function(){
+// $(".googleCloseButton").click(function(){
 
-    $(".googleSound").css("display", "block").show();
-    $(".googlePreviewBox").css("display","none").hide();
-	});
+//     $(".googleSound").css("display", "block").show();
+//     $(".googlePreviewBox").css("display","none").hide();
+// 	});
 });
 
 
