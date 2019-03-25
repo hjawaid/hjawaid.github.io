@@ -204,6 +204,12 @@ a:visited{
 	
 	opacity: 0.5;
 }
+
+.ktoVideo{
+	padding: 0;
+	
+	opacity: 0.5;
+}
 .alignTest{
 	max-height: 100%;
 	position: absolute;
@@ -219,14 +225,22 @@ a:visited{
 	text-align: center;
 	top: 50%;
 	transform: translateY(-50%);
- 
-
-
-	
-
-
 
 }
+
+.instructionsText{
+	color: white;
+
+	font-size: 1.8em;
+	line-height: 1.8em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	display: auto;
+
+}
+
 
 .sdVideoLink{
 	color: black;
@@ -279,7 +293,7 @@ a:visited{
 }
 
 
-.sdSeeTalkText{
+.sdPostVidText{
 	font-size: var(--mainFontSize);
 	line-height: 1.3em;
 	position: relative;

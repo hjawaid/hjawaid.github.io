@@ -1,5 +1,5 @@
 $('document').ready(function(){
-
+	// $("ktoVideo").prop('muted', true);
 $(".introText").animate({
 opacity: 1}, 850, function(){
 
@@ -50,6 +50,33 @@ $(function to_Position(){
 });
 
 
+// ------------------------ mute volume -----------------------------
+//keycode m = 77
+$(window).keydown(function pressed(e){
+
+	var y = e.keyCode;
+
+	if(y == 77){
+
+	$('.ktoVideo').css({'opacity': '1'});
+
+   if($('.ktoVideo').prop('muted', true) ){
+	$('.instructionsText').css({'display': 'none'});
+	$('.ktoVideo').prop('muted', false);
+	console.log('opacity');
+	}
+
+	else if($('.ktoVideo').prop('muted', false) ){
+		$('.ktoVideo').prop('muted', true);
+		console.log('test3');
+	}
+}
+
+
+
+});
+
+// --------------------------- ----------------------------------
 
 
 // ---------------------- Change States  - Upcoming Project Preview -------------
@@ -359,20 +386,20 @@ $(".dayOffIG").mouseleave(function(){
 
 
 // ------------------- display none to block -----------------------
-$(function(){
+// $(function(){
 
-$(".ktoSoundBG").click(function(){
-    $(".ktoPreviewBox").css("display", "block").show(2500);
-    $(".ktoSound").css("display","none").hide(2500);
-	});
+// $(".ktoSoundBG").click(function(){
+//     $(".ktoPreviewBox").css("display", "block").show(2500);
+//     $(".ktoSound").css("display","none").hide(2500);
+// 	});
 
 
 
-$(".ktoCloseButton").click(function(){
+// $(".ktoCloseButton").click(function(){
 
-    $(".ktoSound").css("display", "block").show();
-    $(".ktoPreviewBox").css("display","none").hide();
-	});
+//     $(".ktoSound").css("display", "block").show();
+//     $(".ktoPreviewBox").css("display","none").hide();
+// 	});
 
 // $(".googleSoundBG").click(function(){
 //     $(".googlePreviewBox").css("display", "block").show(2500);
@@ -384,7 +411,7 @@ $(".ktoCloseButton").click(function(){
 //     $(".googleSound").css("display", "block").show();
 //     $(".googlePreviewBox").css("display","none").hide();
 // 	});
-});
+// });
 
 
 
