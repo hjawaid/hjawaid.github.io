@@ -1,0 +1,349 @@
+/* FONTS ---------------------------	*/ 
+
+@font-face {
+    font-family: "Whyte";
+    src: url('../fonts/Whyte-Book.otf') format('otf');
+      /*  url('font/Avenir-Heavy.woff') format('woff');*/
+/*    font-weight: 900;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whyte-Bold";
+    src: url('../fonts/Whyte-Bold.otf') format('otf');
+      /*  url('font/Avenir-Heavy.woff') format('woff');*/
+/*    font-weight: 900;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Pressura Mono';
+    src: url('../font/GTPressuraMono.woff2') format('woff2'),
+        url('../font/GTPressuraMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('font/Avenir-Heavy.woff2') format('woff2'),
+        url('font/Avenir-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Founders';
+    src: url('font/Founders-Grotesk.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+/* FONTS ---------------------------	*/ 
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0D0D0D;
+}
+
+.pageContainer{
+	/*background-color: blue;*/
+	width: 100%;
+	height: 100%;
+}
+/* HOVER STATES ---------------------------	*/ 
+.buttonContainer:hover{
+	transform: scale(1.03);
+}
+
+
+
+/* Title Page ---------------------------	*/ 
+.pageTitle{
+/*  margin-left: 186px;
+  margin-right: 186px;*/
+  margin:0 auto;
+  margin-top: 188px;
+  text-align: center;
+  
+  width: 1068px;
+  line-height: 58px;
+  font-size: 52px;
+  font-family: Whyte;
+  color: white;
+
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+/*  border: 3px solid #73AD21;*/
+
+}
+
+.buttonContainer{
+	display: block;
+	text-align: center;
+	/*border: 2px solid red;*/
+	transition: transform .1s;
+
+
+}
+
+
+.button{
+	
+	
+
+	padding-right: 35px;
+	padding-left: 40px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-radius: 32.5px;
+	
+	
+	font-size: 14px;
+	line-height: 18px;
+
+
+}
+
+#contactButton{
+
+	background-color: white;
+	color: black;
+	margin-top: 29px;
+	display: inline-block;
+}
+
+a .button{
+	color: inherit; /* blue colors for links too */
+  	text-decoration: none; /* no underline */
+  	font-family: 'GT Pressura Mono';
+  	font-size: 14px;
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+.buttonArrow{
+	width: 10px;
+	height:6px;
+
+	margin-left: 25px;
+	position: relative;
+	bottom: 1px;
+}
+
+/* PROJECT CONTAINERS---------------------------	*/ 
+
+/* COMMON CSS ---------------------------	*/ 
+.allProjectContainers{
+	margin: 0 auto;
+	margin-top: 238px;
+	font-size: 0;
+	
+	width: 1236px;
+	height: 100%;
+
+/*	background-color: blue;*/
+}
+
+.projectContainer{
+	width: 618px;
+	height: 402px;
+	display: inline-block;
+	background-color: white;
+	position: relative;
+
+	
+}
+
+.projectContainer:nth-child(4n+0),
+.projectContainer:nth-child(4n+1){
+	background-color: grey;
+
+}
+
+
+video {
+  position: absolute;
+  width: 100%;
+ 
+  object-fit: fill; 				/* remove after */
+/*  height: auto;*/
+}
+
+/*---------- PROJECT THUMBNAILS ---------------- */
+.projectName{
+	font-family: 'Whyte-Bold';
+	color: #FFFFFF;
+	font-size: 36px;
+	line-height: 46px;
+	/*background-color: blue;*/
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+	position: absolute;
+	bottom: 58px;
+	margin-left: 40px;
+	
+}
+
+.projectType{
+	font-family: 'GT Pressura Mono';
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 18px;
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+
+	position: absolute;
+	bottom: 40px;
+	margin-left: 40px; 
+
+}
+
+.projectDuration{
+	font-family: 'GT Pressura Mono';
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 18px;
+
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+
+	position: absolute;
+	top: 32px;
+	margin-left: 40px; 
+}
+
+/* THUMBNAIL HOVER STATE ---------------------------	*/ 
+
+.thumbnailHoverContainer{
+	display: none;
+}
+#thumbnailButton{
+	/*display: inline-block;*/
+	display: none;
+	background-color: white;
+	color: black;
+
+	position: absolute;
+	bottom: 58px;
+	margin-left: 40px;
+}
+
+.thumbnailSelectedOverlay{
+	background-color: black;
+	opacity: 0.7; 
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.projectReadTime{
+	font-family: 'GT Pressura Mono';
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 18px;
+
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+
+	position: absolute;
+	top: 32px;
+	margin-left: 40px; 
+	
+}
+
+.projectLinkToIcon{
+	display: inline-block;
+	position: relative;
+	width: 21px;
+	height:18px;
+	
+	top: 2px;
+	margin-left: 25px;
+
+}
+
+/* INDIVIDUAL PROJECT THUMBNAILS CSS ---------------------------	*/ 
+#project1Container .projectDetails{
+	display: inline;
+}
+}
+
+#project2Container .projectDetails{
+	display: inline;
+}
+
+#project3Container .projectDetails{
+	display: inline;
+}
+
+#project4Container .projectDetails{
+	display: inline;
+}
+
+#project5Container .projectDetails{
+	display: inline;
+}
+
+
+/* CONTACT LOGO ICONS --------------------------- */ 
+
+#contactIconsContainer{
+	width: 100%;
+	height: 100%;
+	
+	margin-top: 117px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.igLogo{
+	width: 21px;
+	height: 21px;
+	margin-right: 22.5px;
+
+	
+}
+.linkedInContactLink{
+
+}
+.linkedInLogo{
+	width: 21px;
+	height: 20px;
+	margin-left: 22.5px;
+	margin-right: 22.5px;
+
+	
+}
+
+.mailLogo{
+	width: 27px;
+	height: 19px;
+	margin-left: 22.5px;
+	
+}
