@@ -2,44 +2,23 @@
 
 @font-face {
     font-family: "Whyte";
-    src: url('../fonts/Whyte-Book.otf') format('otf');
-      /*  url('font/Avenir-Heavy.woff') format('woff');*/
-/*    font-weight: 900;*/
+    src: url('../fonts/Whyte-Book.otf') format("opentype");
     font-style: normal;
 }
 
 @font-face {
     font-family: "Whyte-Bold";
     src: url('../fonts/Whyte-Bold.otf') format('otf');
-      /*  url('font/Avenir-Heavy.woff') format('woff');*/
-/*    font-weight: 900;*/
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GT Pressura Mono';
-    src: url('../font/GTPressuraMono.woff2') format('woff2'),
-        url('../font/GTPressuraMono.woff') format('woff');
+    src: url('../fonts/GTPressuraMono.woff2') format('woff2'),
+        url('../fonts/GTPressuraMono.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-
-@font-face {
-    font-family: 'Avenir';
-    src: url('font/Avenir-Heavy.woff2') format('woff2'),
-        url('font/Avenir-Heavy.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Founders';
-    src: url('font/Founders-Grotesk.ttf') format('ttf');
-    font-weight: 900;
-    font-style: normal;
-}
-
 
 
 
@@ -64,11 +43,25 @@ body{
 	height: 100%;
 }
 /* HOVER STATES ---------------------------	*/ 
-.buttonContainer:hover{
-	transform: scale(1.03);
+.button:hover{
+	background-color: #C2C2C2;
 }
 
+#thumbnailButton:hover{
+	background-color: #C2C2C2;
+}
 
+.thumbnailHoverContainer:hover{
+	opacity: 1;
+}
+
+.thumbnailHoverContainer:hover #thumbnailButton{
+	bottom: 58px;
+}
+
+.projectContainer:hover .projectDuration{
+	opacity: 0;
+}
 
 /* Title Page ---------------------------	*/ 
 .pageTitle{
@@ -96,7 +89,7 @@ body{
 	display: block;
 	text-align: center;
 	/*border: 2px solid red;*/
-	transition: transform .1s;
+	
 
 
 }
@@ -115,16 +108,20 @@ body{
 	
 	font-size: 14px;
 	line-height: 18px;
+	
+	background-color: #FFFFFF;
+	transition: background-color 0.2s;
 
 
 }
 
 #contactButton{
 
-	background-color: white;
 	color: black;
 	margin-top: 29px;
 	display: inline-block;
+
+
 }
 
 a .button{
@@ -166,7 +163,9 @@ a .button{
 	display: inline-block;
 	background-color: white;
 	position: relative;
-
+	
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
 	
 }
 
@@ -223,31 +222,55 @@ video {
 	color: #FFFFFF;
 	font-size: 14px;
 	line-height: 18px;
-
+	
 
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 
-
+/*	background-color: yellow;*/
 	position: absolute;
 	top: 32px;
 	margin-left: 40px; 
+
+	opacity: 1;
+
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
 }
 
 /* THUMBNAIL HOVER STATE ---------------------------	*/ 
 
 .thumbnailHoverContainer{
-	display: none;
+/*	display: none;*/
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s
 }
+
+
 #thumbnailButton{
 	/*display: inline-block;*/
-	display: none;
-	background-color: white;
+/*	display: none;*/
+
+	background-color: #FFFFFF;
 	color: black;
 
 	position: absolute;
-	bottom: 58px;
+	bottom: 32px;
 	margin-left: 40px;
+
+	-webkit-transition: background-color 0.9s;
+	transition: background-color 0.2s;
+
+	-webkit-transition: bottom 0.3s;
+	transition: bottom 0.3s;
+
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+
 }
 
 .thumbnailSelectedOverlay{
@@ -257,6 +280,7 @@ video {
 	width: 100%;
 	position: absolute;
 }
+
 
 .projectReadTime{
 	font-family: 'GT Pressura Mono';
@@ -268,9 +292,9 @@ video {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 
-
+	/*background-color: blue;*/
 	position: absolute;
-	top: 32px;
+	top: 29px; /* having image in smae div is causing extra space */
 	margin-left: 40px; 
 	
 }
@@ -280,7 +304,7 @@ video {
 	position: relative;
 	width: 21px;
 	height:18px;
-	
+/*	background-color: pink;*/
 	top: 2px;
 	margin-left: 25px;
 
@@ -347,3 +371,6 @@ video {
 	margin-left: 22.5px;
 	
 }
+
+/* ANIMATIONS --------------------------- */ 
+
