@@ -151,7 +151,7 @@ a .button{
 	margin-top: 238px;
 	font-size: 0;
 	
-	width: 1236px;
+	max-width: 1236px;
 	height: 100%;
 
 /*	background-color: blue;*/
@@ -303,8 +303,7 @@ video {
 .projectLinkToIcon{
 	display: inline-block;
 	position: relative;
-	width: 21px;
-	height:18px;
+	
 /*	background-color: pink;*/
 	top: 2px;
 	margin-left: 25px;
