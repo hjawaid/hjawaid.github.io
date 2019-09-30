@@ -71,23 +71,24 @@ body{
   margin-top: 188px;
   text-align: center;
   
-  width: 1068px;
-  line-height: 58px;
-  font-size: 52px;
+  max-width: 1068px;
+  line-height: 1.115; /*58px*/
+  font-size: 3.25em;	/*52px;*/
   font-family: Whyte;
   color: white;
-
-
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
+  
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 
 /*  border: 3px solid #73AD21;*/
 
 }
 
 .buttonContainer{
-	display: block;
+	display: inline-block;
 	text-align: center;
+	margin: 0 auto;
+	width: 100%;
 	/*border: 2px solid red;*/
 	
 
@@ -154,6 +155,7 @@ a .button{
 	max-width: 1236px;
 	height: 100%;
 
+
 /*	background-color: blue;*/
 }
 
@@ -163,6 +165,8 @@ a .button{
 	display: inline-block;
 	background-color: white;
 	position: relative;
+
+	text-align: left;
 	
 	-webkit-transition: opacity 0.1s;
 	transition: opacity 0.1s;
@@ -180,7 +184,8 @@ video {
   position: absolute;
   width: 100%;
  
-  object-fit: fill; 				/* remove after */
+  object-fit: cover;
+  object-position: center;
 /*  height: auto;*/
 }
 
@@ -374,5 +379,26 @@ video {
 	
 }
 
-/* ANIMATIONS --------------------------- */ 
+/* MEDIA QUERIES --------------------------- */ 
+
+@media screen and (max-width: 618px){
+	.pageTitle{
+		font-size: 2.2em;
+		line-height: 1.17;
+		padding-right: 14px;
+		padding-left: 14px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.projectContainer{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1235px){
+	.allProjectContainers{
+		text-align: center;
+	}
+}
 
