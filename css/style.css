@@ -70,9 +70,11 @@ body{
   margin:0 auto;
   margin-top: 188px;
   text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
   
   max-width: 1068px;
-  line-height: 1.115; /*58px*/
+  line-height: 1.153; /*58px*/
   font-size: 3.25em;	/*52px;*/
   font-family: Whyte;
   color: white;
@@ -383,12 +385,46 @@ video {
 
 @media screen and (max-width: 618px){
 	.pageTitle{
-		font-size: 2.2em;
+		font-size: 1.8em;
 		line-height: 1.17;
-		padding-right: 14px;
-		padding-left: 14px;
+		padding-right: 25px;
+		padding-left: 25px;
+		margin-top: 50px;
+		text-align: left;
+
+
 	}
 }
+
+@media screen and (max-width: 618px){
+	.buttonContainer{
+		text-align: left;
+		margin-left: 25px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.button{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 32px;
+		padding-right: 28px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	a .button{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	#thumbnailButton{
+		margin-left: 25px;
+	}
+}
+
 
 @media screen and (max-width: 618px){
 	.projectContainer{
@@ -399,6 +435,36 @@ video {
 @media screen and (max-width: 1235px){
 	.allProjectContainers{
 		text-align: center;
+		margin-top: 130px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.projectName{
+		font-size: 28px;
+		max-width: 340px;
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.projectType{
+		font-size: 12px;
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.projectDuration{
+		font-size: 12px;
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 618px){
+	.projectReadTime{
+		font-size: 12px;
+		margin-left: 25px;
 	}
 }
 
