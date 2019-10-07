@@ -20,9 +20,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'gt-walsheim-web';
+    src: url('../fonts/gt-walsheim-web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
-/* FONTS ---------------------------	*/ 
+
+/* PAGE STYLING ---------------------------	*/ 
 
 
 
@@ -86,7 +93,7 @@ body{
 
 }
 
-.buttonContainer{
+.centerButtonContainer{
 	display: inline-block;
 	text-align: center;
 	margin: 0 auto;
@@ -107,7 +114,7 @@ body{
 	padding-top: 18px;
 	padding-bottom: 18px;
 	border-radius: 32.5px;
-	
+	font-family: 'GT Pressura Mono'; /*Put back in a.button if this messes things up*/
 	
 	font-size: 14px;
 	line-height: 18px;
@@ -130,7 +137,7 @@ body{
 a .button{
 	color: inherit; /* blue colors for links too */
   	text-decoration: none; /* no underline */
-  	font-family: 'GT Pressura Mono';
+  	
   	font-size: 14px;
 
 	text-rendering: optimizeLegibility !important;
@@ -397,7 +404,7 @@ video {
 }
 
 @media screen and (max-width: 618px){
-	.buttonContainer{
+	.centerButtonContainer{
 		text-align: left;
 		margin-left: 25px;
 		width: auto;

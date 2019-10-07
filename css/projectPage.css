@@ -1,0 +1,86 @@
+@import "style.css";
+
+/*Make master stylesheet*/
+body{
+	background-color: #F7F9FB;
+}
+
+.width1{
+	margin: 0 auto;
+	width: 780px;
+	padding-left: 330px;
+	padding-right: 330px;
+}
+
+/* ---------- Master Font Styling ---------- */
+h5{
+font-family: 'GT Pressura Mono';
+font-size: 14px;
+color: white;
+
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+}
+
+.titleSection{
+	width: 100%;
+	height: 100%;
+	background-color: #141313;
+
+}
+
+.titleSectionContainer{
+
+}
+
+
+.headerTitle{
+	padding-top: 158px; /* -------FIX------- */
+	font-size: 52px;
+	font-family: 'Whyte-Bold';
+	letter-spacing: -2.91px;
+	line-height: 58px;
+
+	color: #F4FCE0;
+/*	background-color: blue;*/
+
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.titleSubheader{
+	font-size: 26px;
+	font-family: 'gt-walsheim-web';
+	letter-spacing: -0.21px;
+	line-height: 32px;
+	margin-top: 5px;
+
+	color: #F4FCE0;
+/*	background-color: yellow;*/
+
+
+	text-rendering: optimizeLegibility !important;
+  	-webkit-font-smoothing: antialiased !important;
+}
+
+.nonCenteredButton{ /*Put in master*/
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: black;
+	position: relative;
+}
+
+#titleButton{
+	margin-top: 42px;
+}
+
+.projectInfoContainer{
+	width: 100%;
+	height: 200px;
+/*	background-color: red;*/
+	color: white;
+}
+
+
+
