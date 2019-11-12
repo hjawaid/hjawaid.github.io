@@ -386,6 +386,14 @@ video {
 	
 }
 
+.resumeLink{
+	font-size: 1.25em;	/*52px;*/
+  	font-family: Whyte;
+  	color: white;
+	margin-left: 22.5px;
+
+}
+
 /* MEDIA QUERIES --------------------------- */ 
 
 @media screen and (max-width: 618px){
