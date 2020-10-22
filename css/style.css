@@ -13,6 +13,14 @@
 }
 
 @font-face {
+    font-family: 'GT Pressura Mono Light';
+    src: url('../fonts/GT-Pressura-Mono-Light.woff2') format('woff2'),
+        url('../fonts/GT-Pressura-Mono-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'GT Pressura Mono';
     src: url('../fonts/GTPressuraMono.woff2') format('woff2'),
         url('../fonts/GTPressuraMono.woff') format('woff');
@@ -158,7 +166,6 @@ a .button{
 	margin: 0 auto;
 	margin-top: 238px;
 	font-size: 0;
-	
 	max-width: 1236px;
 	height: 100%;
 
@@ -172,7 +179,6 @@ a .button{
 	display: inline-block;
 	background-color: white;
 	position: relative;
-
 	text-align: left;
 	
 	-webkit-transition: opacity 0.1s;
@@ -314,6 +320,23 @@ video {
 	
 }
 
+.projectDescription{
+
+	font-family: 'Whyte';
+	font-size: 22px;
+	line-height: 32px;
+	color: white;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+	position: absolute;
+	top: 90px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+
+}
+
 .projectLinkToIcon{
 	display: inline-block;
 	position: relative;
@@ -383,6 +406,7 @@ video {
 	width: 27px;
 	height: 19px;
 	margin-left: 22.5px;
+	margin-right: 22.5px;
 	
 }
 
@@ -391,7 +415,13 @@ video {
   	font-family: Whyte;
   	color: white;
 	margin-left: 22.5px;
+	padding-bottom: 5px;
 
+}
+
+.resumeLink a{
+	text-decoration: none;
+	color: white;
 }
 
 /* MEDIA QUERIES --------------------------- */ 
