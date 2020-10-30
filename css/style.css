@@ -347,6 +347,23 @@ video {
 
 }
 
+.projectPending{
+	font-family: 'GT Pressura Mono';
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 18px;
+
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+  	
+}
+
 /* INDIVIDUAL PROJECT THUMBNAILS CSS ---------------------------	*/ 
 #project1Container .projectDetails{
 	display: inline;
@@ -366,6 +383,10 @@ video {
 }
 
 #project5Container .projectDetails{
+	display: inline;
+}
+
+#project6Container .projectDetails{
 	display: inline;
 }
 
