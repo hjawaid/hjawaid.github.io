@@ -36,6 +36,10 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+
+
 
 /* PAGE STYLING ---------------------------	*/ 
 
@@ -60,6 +64,7 @@ body{
 /* HOVER STATES ---------------------------	*/ 
 .button:hover{
 	background-color: #C2C2C2;
+	
 }
 
 #thumbnailButton:hover{
@@ -120,7 +125,8 @@ body{
 	padding-top: 18px;
 	padding-bottom: 18px;
 	border-radius: 32.5px;
-	font-family: 'GT Pressura Mono'; /*Put back in a.button if this messes things up*/
+	font-family: 'GT Pressura Mono'; 
+	/*font-family: 'IBM Plex Mono', monospace;*/
 	
 	font-size: 14px;
 	line-height: 18px;
@@ -168,7 +174,6 @@ a .button{
 	font-size: 0;
 	max-width: 1236px;
 	height: 100%;
-
 
 /*	background-color: blue;*/
 }
@@ -528,6 +533,11 @@ video {
 @media screen and (max-width: 618px){
 	.projectReadTime{
 		font-size: 12px;
+		margin-left: 25px;
+	}
+
+	.projectDescription{
+		font-size: 22px;
 		margin-left: 25px;
 	}
 }
