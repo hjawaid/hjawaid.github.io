@@ -170,7 +170,7 @@ a .button{
 /* COMMON CSS ---------------------------	*/ 
 .allProjectContainers{
 	margin: 0 auto;
-	margin-top: 238px;
+	margin-top: 178px;
 	font-size: 0;
 	max-width: 1236px;
 	height: 100%;
@@ -460,8 +460,6 @@ video {
 		padding-left: 25px;
 		margin-top: 50px;
 		text-align: left;
-
-
 	}
 }
 
